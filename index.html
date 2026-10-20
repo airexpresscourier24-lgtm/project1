@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <title>Air Express International Courier Services | Hyderabad Begumpet</title>
+    <meta name="description" content="Air Express International Courier Services in Begumpet, Hyderabad. Fast worldwide courier, express doorstep pickup, air freight, food items & document shipping to USA, UK, Canada, Australia, UAE & 220+ countries. Call 8328106276.">
+    <meta name="keywords" content="Air Express Courier, International Courier Hyderabad, Courier Service Begumpet, Food Courier USA UK, International Document Express, Hyderabad Courier Service">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="Air Express International Courier Services - Hyderabad">
+    <meta property="og:description" content="Worldwide express courier & cargo service from Prakash Nagar, Begumpet, Hyderabad. Doorstep pickup, express air freight to 220+ countries.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+    <link rel="stylesheet" href="styles.css?v=9">
+    <style>
+        /* Mobile-First: Top-bar is hidden by default on all mobile screens */
+        .top-bar,
+        .desktop-only-bar {
+            display: none !important;
+            visibility: hidden !important;
+            height: 0 !important;
+            min-height: 0 !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            overflow: hidden !important;
+            border: none !important;
+        }
+
+        /* Desktop: Show top-bar only on screens >= 993px */
+        @media (min-width: 993px) {
+            .top-bar,
+            .desktop-only-bar {
+                display: block !important;
+                visibility: visible !important;
+                height: auto !important;
+                padding: 0.5rem 0 !important;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP ANNOUNCEMENT / UTILITY BAR (Desktop Only) -->
+    <div class="top-bar desktop-only-bar">
+        <div class="container top-bar-content">
+            <div class="top-info">
+                <a href="tel:8328106276"><i class="fa-solid fa-phone"></i> +91 83281 06276</a>
+                <a href="tel:9963257953"><i class="fa-solid fa-mobile-screen-button"></i> +91 99632 57953</a>
+                <a href="mailto:aeairexpress@gmail.com"><i class="fa-solid fa-envelope"></i> aeairexpress@gmail.com</a>
+            </div>
+            <div class="top-location">
+                <i class="fa-solid fa-location-dot"></i> Near Prakash Nagar, Begumpet, Hyderabad - 500016
+                <span class="plus-code"><i class="fa-solid fa-map-pin"></i> Plus Code: CFQ9+Q6J</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVIGATION BAR -->
+    <header class="main-header" id="mainHeader">
+        <div class="container header-container">
+            <a href="#home" class="brand-logo" onclick="closeMobileNav()">
+                <img src="assets/images/logo.jpg" alt="Air Express International Courier Logo" class="logo-img" id="mainLogo">
+                <div class="brand-text">
+                    <span class="brand-title">AIR EXPRESS</span>
+                    <span class="brand-subtitle">INTERNATIONAL COURIER SERVICES</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#calculator" class="nav-link">Rate Calculator</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#destinations" class="nav-link">Destinations</a>
+                <a href="#prohibited" class="nav-link">Guide</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+                <div class="mobile-nav-actions">
+                    <button class="btn btn-primary w-100" onclick="openPickupModal(); closeMobileNav();">
+                        <i class="fa-solid fa-truck-ramp-box"></i> Book Free Pickup
+                    </button>
+                    <a href="https://wa.me/919963257953?text=Hi%20Air%20Express,%20I%20need%20courier%20information." target="_blank" class="btn btn-whatsapp w-100" onclick="closeMobileNav();">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                    <a href="tel:9963257953" class="mobile-nav-call" onclick="closeMobileNav();">
+                        <i class="fa-solid fa-phone"></i> Direct Call: +91 99632 57953
+                    </a>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <a href="https://wa.me/919963257953?text=Hi%20Air%20Express,%20I%20need%20courier%20information." target="_blank" class="btn btn-whatsapp header-btn">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                </a>
+                <button class="btn btn-primary header-btn" onclick="openPickupModal()">
+                    <i class="fa-solid fa-truck-ramp-box"></i> Book Pickup
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation" aria-expanded="false" onclick="toggleMobileNav(event)">
+                    <i class="fa-solid fa-bars" id="toggleIcon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop" onclick="closeMobileNav()"></div>
+
+    <!-- HERO SECTION WITH SLIDER -->
+    <section class="hero-section" id="home">
+        <!-- Hero Slides -->
+        <div class="hero-slider" id="heroSlider">
+            <!-- Slide 1 -->
+            <div class="hero-slide active" style="background-image: url('assets/images/hero1.png');">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-badge"><i class="fa-solid fa-plane-departure"></i> Global Air Cargo & Courier</div>
+                        <h1 class="hero-title">Worldwide Express Delivery <br><span class="highlight">From Hyderabad to 220+ Countries</span></h1>
+                        <p class="hero-description">Fast, reliable and secure international express courier service. Specializing in documents, food items, medicine, gifts & air freight with free doorstep pickup in Begumpet & across Hyderabad.</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary btn-lg" onclick="openPickupModal()">
+                                <i class="fa-solid fa-box-archive"></i> Schedule Free Doorstep Pickup
+                            </button>
+                            <a href="https://wa.me/919963257953?text=Hi%20Air%20Express,%20I%20need%20courier%20rates" target="_blank" class="btn btn-whatsapp btn-lg">
+                                <i class="fa-brands fa-whatsapp"></i> WhatsApp 9963257953
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide" style="background-image: url('assets/images/hero2.png');">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-badge"><i class="fa-solid fa-house-chimney-crack"></i> Free Doorstep Pickup</div>
+                        <h1 class="hero-title">Express Courier Pickup <br><span class="highlight">At Your Doorstep in Hyderabad</span></h1>
+                        <p class="hero-description">No need to travel! Our professional couriers come directly to your home or office in Prakash Nagar, Begumpet, Somajiguda, Punjagutta, Secunderabad & all city zones.</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary btn-lg" onclick="openPickupModal()">
+                                <i class="fa-solid fa-truck-pickup"></i> Book Express Pickup
+                            </button>
+                            <a href="https://wa.me/919963257953?text=Hi%20Air%20Express,%20I%20want%20a%20doorstep%20pickup" target="_blank" class="btn btn-whatsapp btn-lg">
+                                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="hero-slide" style="background-image: url('assets/images/hero3.png');">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-badge"><i class="fa-solid fa-earth-americas"></i> Express Destinations</div>
+                        <h1 class="hero-title">Special Discount Rates for <br><span class="highlight">USA, UK, Canada, Australia & Gulf</span></h1>
+                        <p class="hero-description">Guaranteed express delivery timelines (2 to 4 business days) with end-to-end live tracking, complete customs documentation clearance, and safety insurance.</p>
+                        <div class="hero-buttons">
+                            <a href="#calculator" class="btn btn-primary btn-lg">
+                                <i class="fa-solid fa-calculator"></i> Calculate Courier Rates
+                            </a>
+                            <a href="#services" class="btn btn-outline-light btn-lg">
+                                <i class="fa-solid fa-list-check"></i> View All Services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="hero-slide" style="background-image: url('assets/images/hero4.png');">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-badge"><i class="fa-solid fa-box"></i> Food & Household Packing</div>
+                        <h1 class="hero-title">Homemade Food, Sweets & Snacks <br><span class="highlight">Vacuum Packed & Delivered Fresh</span></h1>
+                        <p class="hero-description">Send homemade pickles, sweets, spices, clothes, and family gifts safely to your loved ones abroad. We provide commercial vacuum sealing & international compliant packing.</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary btn-lg" onclick="openPickupModal()">
+                                <i class="fa-solid fa-utensils"></i> Ship Food Items Now
+                            </button>
+                            <a href="#prohibited" class="btn btn-outline-light btn-lg">
+                                <i class="fa-solid fa-shield-halved"></i> Allowed Food Guide
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Navigation Controls -->
+        <div class="hero-slider-controls">
+            <button class="slider-prev" id="sliderPrev" aria-label="Previous Slide"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="slider-dots" id="sliderDots"></div>
+            <button class="slider-next" id="sliderNext" aria-label="Next Slide"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- STATS COUNTER STRIP -->
+    <section class="stats-strip">
+        <div class="container stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-plane-up"></i></div>
+                <div class="stat-info">
+                    <span class="stat-number">220+</span>
+                    <span class="stat-label">Countries Covered</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                <div class="stat-info">
+                    <span class="stat-number">2-4 Days</span>
+                    <span class="stat-label">Express Air Transit</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-face-smile"></i></div>
+                <div class="stat-info">
+                    <span class="stat-number">15,000+</span>
+                    <span class="stat-label">Satisfied Customers</span>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="stat-info">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Safety & Tracking</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILED RATE CALCULATOR SECTION -->
+    <section class="section bg-light" id="calculator">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge"><i class="fa-solid fa-calculator"></i> Rate Calculator</span>
+                <h2 class="section-title">International Courier Rate Calculator</h2>
+                <p class="section-subtitle">Select your package details and calculate the best courier rates directly via WhatsApp.</p>
+            </div>
+
+            <div class="calculator-card shadow-card">
+                <div class="calc-grid">
+                    <div class="calc-inputs">
+                        <h3 class="calc-title"><i class="fa-solid fa-sliders"></i> Enter Package Details</h3>
+                        
+                        <div class="form-group">
+                            <label for="calcDestCountry"><i class="fa-solid fa-earth-americas"></i> Select Destination Country</label>
+                            <select id="calcDestCountry" class="form-control custom-select">
+                                <option value="USA">🇺🇸 United States of America (USA)</option>
+                                <option value="UK">🇬🇧 United Kingdom (UK)</option>
+                                <option value="CANADA">🇨🇦 Canada</option>
+                                <option value="AUSTRALIA">🇦🇺 Australia</option>
+                                <option value="UAE">🇦🇪 United Arab Emirates (Dubai)</option>
+                                <option value="GERMANY">🇩🇪 Germany & EU Countries</option>
+                                <option value="SINGAPORE">🇸🇬 Singapore</option>
+                                <option value="MALAYSIA">🇲🇾 Malaysia</option>
+                                <option value="NEW_ZEALAND">🇳🇿 New Zealand</option>
+                                <option value="SAUDI">🇸🇦 Saudi Arabia</option>
+                                <option value="OTHER">🌍 Rest of the World</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="calcCategory"><i class="fa-solid fa-box-open"></i> Shipment Category</label>
+                            <select id="calcCategory" class="form-control custom-select">
+                                <option value="food" selected>🍲 Homemade Food, Sweets & Pickles</option>
+                                <option value="documents">📄 Documents & University Papers</option>
+                                <option value="household">👕 Clothes, Gifts & Personal Items</option>
+                                <option value="medicines">💊 Doctor Prescribed Medicines</option>
+                                <option value="commercial">📦 Commercial Goods / Cargo / Samples</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="label-with-value">
+                                <label for="calcWeightSlider"><i class="fa-solid fa-scale-balanced"></i> Package Weight (KG)</label>
+                                <span class="weight-badge" id="weightDisplay">5.0 KG</span>
+                            </div>
+                            <input type="range" id="calcWeightSlider" min="0.5" max="50" step="0.5" value="5.0" class="range-slider">
+                            <div class="range-marks">
+                                <span>0.5 KG</span>
+                                <span>10 KG</span>
+                                <span>25 KG</span>
+                                <span>50+ KG</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="calcPickupArea"><i class="fa-solid fa-location-dot"></i> Doorstep Pickup Location in Hyderabad</label>
+                            <input type="text" id="calcPickupArea" class="form-control" placeholder="e.g. Begumpet, Hyderabad (Pickup is FREE!)" value="Prakash Nagar, Begumpet">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="calcNote"><i class="fa-regular fa-comment-dots"></i> Item Description / Note (Optional)</label>
+                            <input type="text" id="calcNote" class="form-control" placeholder="e.g. 5kg sweets & pickles vacuum packing">
+                        </div>
+
+                        <div class="calc-input-action">
+                            <button type="button" class="btn btn-whatsapp w-100 btn-lg" onclick="calculateOnWhatsApp()">
+                                <i class="fa-brands fa-whatsapp"></i> Calculate Rate on WhatsApp
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="calc-output">
+                        <div class="quote-info-box">
+                            <div>
+                                <div class="quote-tagline">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Rate Calculation
+                                </div>
+                                <h3 class="quote-title">Instant Rate Quote on WhatsApp</h3>
+                                <p class="quote-desc">Get the exact customized courier rate quote tailored to your package weight, destination country, and packaging requirements directly on WhatsApp.</p>
+
+                                <div class="calc-live-summary">
+                                    <div class="cls-title"><i class="fa-solid fa-clipboard-check"></i> Package Summary</div>
+                                    <div class="cls-row">
+                                        <span class="cls-label">Destination</span>
+                                        <span class="cls-val" id="summaryDest">🇺🇸 United States of America (USA)</span>
+                                    </div>
+                                    <div class="cls-row">
+                                        <span class="cls-label">Category</span>
+                                        <span class="cls-val" id="summaryCategory">🍲 Homemade Food, Sweets & Pickles</span>
+                                    </div>
+                                    <div class="cls-row">
+                                        <span class="cls-label">Weight</span>
+                                        <span class="cls-val" id="summaryWeight">5.0 KG</span>
+                                    </div>
+                                    <div class="cls-row">
+                                        <span class="cls-label">Pickup Area</span>
+                                        <span class="cls-val" id="summaryArea">Prakash Nagar, Begumpet</span>
+                                    </div>
+                                </div>
+
+                                <div class="calc-highlights">
+                                    <div class="ch-item">
+                                        <i class="fa-solid fa-bolt"></i>
+                                        <div>
+                                            <strong>Fast WhatsApp Response</strong>
+                                            <span>Quote calculation within 2 to 5 minutes</span>
+                                        </div>
+                                    </div>
+                                    <div class="ch-item">
+                                        <i class="fa-solid fa-truck-pickup"></i>
+                                        <div>
+                                            <strong>Free Doorstep Pickup</strong>
+                                            <span>Across Begumpet, Somajiguda & Hyderabad</span>
+                                        </div>
+                                    </div>
+                                    <div class="ch-item">
+                                        <i class="fa-solid fa-box-open"></i>
+                                        <div>
+                                            <strong>Free Packaging Assistance</strong>
+                                            <span>Cardboard box & vacuum packing support</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="quote-actions mt-3">
+                                <button type="button" class="btn btn-whatsapp w-100 btn-lg" onclick="calculateOnWhatsApp()">
+                                    <i class="fa-solid fa-calculator"></i> Calculate Rate on WhatsApp
+                                </button>
+                                <button type="button" class="btn btn-outline-light w-100 btn-lg mt-2" onclick="openPickupModal()">
+                                    <i class="fa-solid fa-calendar-plus"></i> Request Pickup Online
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR KEY SERVICES SECTION -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge"><i class="fa-solid fa-cubes"></i> Comprehensive Logistics</span>
+                <h2 class="section-title">International Courier Services</h2>
+                <p class="section-subtitle">Tailored air express solutions designed for individuals, families, students, and businesses in Hyderabad.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card shadow-card">
+                    <div class="service-icon"><i class="fa-solid fa-plane-lock"></i></div>
+                    <h3 class="service-title">International Express Courier</h3>
+                    <p class="service-desc">Fast door-to-door delivery for urgent parcels, commercial samples, and gifts to 220+ worldwide locations with full tracking.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> 2-4 Days Express Transit</li>
+                        <li><i class="fa-solid fa-check"></i> Online Tracking</li>
+                        <li><i class="fa-solid fa-check"></i> Doorstep Collection</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card shadow-card highlight-card">
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="service-icon"><i class="fa-solid fa-bowl-rice"></i></div>
+                    <h3 class="service-title">Homemade Food & Pickles Express</h3>
+                    <p class="service-desc">Send homemade sweets, snacks, spices, ghee, and pickles safely to kids & relatives in USA, UK, Canada, Australia & Gulf.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Vacuum Sealing Available</li>
+                        <li><i class="fa-solid fa-check"></i> Spill-Proof Packing</li>
+                        <li><i class="fa-solid fa-check"></i> Food Compliance Clearances</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card shadow-card">
+                    <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3 class="service-title">Student Express Document Service</h3>
+                    <p class="service-desc">Express delivery of university application documents, marksheets, transcripts, and passports with special student discount rates.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Priority Air Handling</li>
+                        <li><i class="fa-solid fa-check"></i> Special Student Rates</li>
+                        <li><i class="fa-solid fa-check"></i> Proof of Delivery</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card shadow-card">
+                    <div class="service-icon"><i class="fa-solid fa-truck-plane"></i></div>
+                    <h3 class="service-title">Air Freight & Commercial Cargo</h3>
+                    <p class="service-desc">Cost-effective solutions for heavy weight shipments, commercial export cargo, and business inventory with customs clearance.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Heavy Cargo Discounts</li>
+                        <li><i class="fa-solid fa-check"></i> Export Documentation</li>
+                        <li><i class="fa-solid fa-check"></i> Airport-to-Airport / Door</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card shadow-card">
+                    <div class="service-icon"><i class="fa-solid fa-suitcase-rolling"></i></div>
+                    <h3 class="service-title">Excess Baggage & Relocation</h3>
+                    <p class="service-desc">Avoid high airline luggage charges! Ship excess personal luggage, wardrobe, and household items safely overseas.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Save up to 70% vs Airlines</li>
+                        <li><i class="fa-solid fa-check"></i> Doorstep Pickup in Begumpet</li>
+                        <li><i class="fa-solid fa-check"></i> Heavy Box Packaging</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card shadow-card">
+                    <div class="service-icon"><i class="fa-solid fa-pills"></i></div>
+                    <h3 class="service-title">Prescription Medicines Courier</h3>
+                    <p class="service-desc">Reliable international dispatch of essential prescription health medicines with valid doctor documentation compliance.</p>
+                    <ul class="service-features">
+                        <li><i class="fa-solid fa-check"></i> Doctor Prescription Check</li>
+                        <li><i class="fa-solid fa-check"></i> Temperature Safeguards</li>
+                        <li><i class="fa-solid fa-check"></i> Express Clearance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOP DESTINATIONS SECTION -->
+    <section class="section bg-light" id="destinations">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge"><i class="fa-solid fa-earth-asia"></i> Worldwide Network</span>
+                <h2 class="section-title">Popular Destination Countries</h2>
+                <p class="section-subtitle">Regular daily express flights connecting Hyderabad directly to top global hubs.</p>
+            </div>
+
+            <div class="destinations-marquee">
+                <div class="destinations-track">
+                    <!-- Set 1 -->
+                    <div class="dest-card">
+                        <div class="flag">🇺🇸</div>
+                        <div class="dest-info">
+                            <h4>USA</h4>
+                            <span>2 - 4 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇬🇧</div>
+                        <div class="dest-info">
+                            <h4>United Kingdom</h4>
+                            <span>2 - 4 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇨🇦</div>
+                        <div class="dest-info">
+                            <h4>Canada</h4>
+                            <span>3 - 5 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇦🇺</div>
+                        <div class="dest-info">
+                            <h4>Australia</h4>
+                            <span>3 - 5 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇦🇪</div>
+                        <div class="dest-info">
+                            <h4>UAE / Dubai</h4>
+                            <span>2 - 3 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇩🇪</div>
+                        <div class="dest-info">
+                            <h4>Germany & EU</h4>
+                            <span>3 - 5 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇸🇬</div>
+                        <div class="dest-info">
+                            <h4>Singapore</h4>
+                            <span>2 - 3 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇳🇿</div>
+                        <div class="dest-info">
+                            <h4>New Zealand</h4>
+                            <span>4 - 6 Days Express</span>
+                        </div>
+                    </div>
+                    <!-- Set 2 (for seamless loop) -->
+                    <div class="dest-card">
+                        <div class="flag">🇺🇸</div>
+                        <div class="dest-info">
+                            <h4>USA</h4>
+                            <span>2 - 4 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇬🇧</div>
+                        <div class="dest-info">
+                            <h4>United Kingdom</h4>
+                            <span>2 - 4 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇨🇦</div>
+                        <div class="dest-info">
+                            <h4>Canada</h4>
+                            <span>3 - 5 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇦🇺</div>
+                        <div class="dest-info">
+                            <h4>Australia</h4>
+                            <span>3 - 5 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇦🇪</div>
+                        <div class="dest-info">
+                            <h4>UAE / Dubai</h4>
+                            <span>2 - 3 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇩🇪</div>
+                        <div class="dest-info">
+                            <h4>Germany & EU</h4>
+                            <span>3 - 5 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇸🇬</div>
+                        <div class="dest-info">
+                            <h4>Singapore</h4>
+                            <span>2 - 3 Days Express</span>
+                        </div>
+                    </div>
+                    <div class="dest-card">
+                        <div class="flag">🇳🇿</div>
+                        <div class="dest-info">
+                            <h4>New Zealand</h4>
+                            <span>4 - 6 Days Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROHIBITED ITEMS & PACKING GUIDE -->
+    <section class="section" id="prohibited">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge"><i class="fa-solid fa-shield-halved"></i> Customs & Safety</span>
+                <h2 class="section-title">Allowed vs Prohibited Items Guide</h2>
+                <p class="section-subtitle">Ensure smooth international customs clearance by reviewing allowed items before packing.</p>
+            </div>
+
+            <div class="guide-tabs-container shadow-card">
+                <div class="guide-columns">
+                    <!-- Allowed Items Column -->
+                    <div class="guide-col allowed">
+                        <div class="col-header">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <h3>Allowed Items (We Pack & Ship)</h3>
+                        </div>
+                        <ul class="guide-list">
+                            <li><i class="fa-solid fa-check"></i> Homemade Sweets, Snacks, Namkeen & Bakery</li>
+                            <li><i class="fa-solid fa-check"></i> Pickles (well-sealed non-leaking glass/plastic containers)</li>
+                            <li><i class="fa-solid fa-check"></i> Spices, Masalas, Pulses, Rice & Dry Fruits</li>
+                            <li><i class="fa-solid fa-check"></i> Clothes, Shoes, Bedding, Handicrafts & Books</li>
+                            <li><i class="fa-solid fa-check"></i> Prescribed Medicines (with doctor's bill & prescription)</li>
+                            <li><i class="fa-solid fa-check"></i> Educational Documents, Transcripts & Passports</li>
+                            <li><i class="fa-solid fa-check"></i> Brass Utensils, Household Items & Gifts</li>
+                        </ul>
+                    </div>
+
+                    <!-- Prohibited Items Column -->
+                    <div class="guide-col prohibited">
+                        <div class="col-header">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                            <h3>Prohibited Items (Restricted by Air Cargo)</h3>
+                        </div>
+                        <ul class="guide-list">
+                            <li><i class="fa-solid fa-xmark"></i> Flammable liquids, perfumes, spray deodorants, alcohol</li>
+                            <li><i class="fa-solid fa-xmark"></i> Cash, currency notes, gold bullion, precious jewels</li>
+                            <li><i class="fa-solid fa-xmark"></i> Loose Lithium-ion power banks or batteries</li>
+                            <li><i class="fa-solid fa-xmark"></i> Explosives, fireworks, matches, lighters</li>
+                            <li><i class="fa-solid fa-xmark"></i> Illegal substances, narcotics, unauthorized drugs</li>
+                            <li><i class="fa-solid fa-xmark"></i> Perishable meat, unsealed liquid dairy items</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE AIR EXPRESS SECTION -->
+    <section class="section bg-gradient-dark text-white">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge badge-light"><i class="fa-solid fa-star"></i> Our Advantages</span>
+                <h2 class="section-title text-white">Why Choose Air Express Hyderabad?</h2>
+                <p class="section-subtitle text-light">We combine local personalized service in Begumpet with global air freight efficiency.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="f-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                    <h4>Free Doorstep Pickup</h4>
+                    <p>Pickup service available across Prakash Nagar, Begumpet, Ameerpet, Punjagutta, Banjara Hills & Hyderabad.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="f-icon"><i class="fa-solid fa-box-tissue"></i></div>
+                    <h4>Professional Vacuum Packing</h4>
+                    <p>Free sturdy outer box packing & vacuum sealing for pickles, food items, and fragile goods.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="f-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                    <h4>Customs Assistance</h4>
+                    <p>Complete guidance on invoice preparation, commercial clearance & country-specific regulations.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="f-icon"><i class="fa-solid fa-comment-sms"></i></div>
+                    <h4>Instant WhatsApp Updates</h4>
+                    <p>Receive live notifications and tracking links directly on your phone throughout the delivery journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section bg-light" id="testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge"><i class="fa-solid fa-quote-left"></i> Client Reviews</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real feedback from families & businesses who trust Air Express International Courier.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card shadow-card">
+                    <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="review-text">"Sent homemade pickles and sweets to my son in Dallas, USA. Air Express picked up from my house in Begumpet and delivered in just 3 days! Excellent vacuum packing."</p>
+                    <div class="reviewer">
+                        <div class="avatar">VR</div>
+                        <div>
+                            <strong>Venkat Rao K.</strong>
+                            <span>Prakash Nagar, Begumpet</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card shadow-card">
+                    <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="review-text">"Very professional courier service! Sent my university transcripts to London. Special student rate was very affordable and tracking was updated live on WhatsApp."</p>
+                    <div class="reviewer">
+                        <div class="avatar">SN</div>
+                        <div>
+                            <strong>Sneha Reddy</strong>
+                            <span>Secunderabad</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card shadow-card">
+                    <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="review-text">"Regularly dispatch commercial sample boxes to UAE. Prompt response, courteous staff, best rates in Hyderabad. Highly recommended!"</p>
+                    <div class="reviewer">
+                        <div class="avatar">MA</div>
+                        <div>
+                            <strong>Mohammed Arif</strong>
+                            <span>Hyderabad</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & LOCATION SECTION -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge"><i class="fa-solid fa-map-location-dot"></i> Get In Touch</span>
+                <h2 class="section-title">Contact Us & Branch Location</h2>
+                <p class="section-subtitle">Visit our office or call us anytime for instant pickup & shipping inquiries.</p>
+            </div>
+
+            <div class="contact-layout">
+                <!-- CONTACT DETAILS CARD -->
+                <div class="contact-info-card shadow-card">
+                    <h3><i class="fa-solid fa-building-flag"></i> Air Express International Courier</h3>
+                    <p class="contact-intro">Your reliable international courier partner in Begumpet, Hyderabad.</p>
+
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <strong>Phone / Booking Call</strong>
+                                <p><a href="tel:8328106276">+91 83281 06276</a> / <a href="tel:9963257953">+91 99632 57953</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <strong>WhatsApp Support</strong>
+                                <p><a href="https://wa.me/919963257953" target="_blank">+91 99632 57953 (Click to Chat)</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <strong>Email Address</strong>
+                                <p><a href="mailto:aeairexpress@gmail.com">aeairexpress@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <strong>Office Address</strong>
+                                <p>Near Prakash Nagar, Begumpet, Hyderabad, Telangana 500016, India</p>
+                                <p class="plus-code-tag"><i class="fa-solid fa-map-pin"></i> Google Plus Code: <strong>CFQ9+Q6J Hyderabad</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon-box"><i class="fa-solid fa-clock"></i></div>
+                            <div>
+                                <strong>Working Hours</strong>
+                                <p>Monday – Saturday: 9:00 AM – 9:00 PM<br>Sunday: 10:00 AM – 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="direct-actions">
+                        <a href="tel:9963257953" class="btn btn-primary w-100 mb-2">
+                            <i class="fa-solid fa-phone"></i> Call 9963257953 Now
+                        </a>
+                        <a href="https://wa.me/919963257953?text=Hi%20Air%20Express,%20I%20want%20to%20send%20a%20courier" target="_blank" class="btn btn-whatsapp w-100">
+                            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- QUICK ENQUIRY FORM & MAP -->
+                <div class="contact-form-card shadow-card">
+                    <h3><i class="fa-solid fa-paper-plane"></i> Send Quick Inquiry</h3>
+                    <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                        <div class="form-group">
+                            <label for="contactName">Your Name *</label>
+                            <input type="text" id="contactName" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactPhone">Phone Number *</label>
+                            <input type="tel" id="contactPhone" class="form-control" placeholder="10 Digit Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactDestination">Destination Country</label>
+                            <input type="text" id="contactDestination" class="form-control" placeholder="e.g. USA, UK, Canada, UAE">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Parcel Details / Inquiry Message</label>
+                            <textarea id="contactMessage" class="form-control" rows="3" placeholder="Tell us about your package (Weight, item type, pickup area)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-accent w-100 btn-lg">
+                            <i class="fa-solid fa-paper-plane"></i> Submit Request
+                        </button>
+                    </form>
+
+                    <!-- GOOGLE MAP LOCATION EMBED -->
+                    <div class="map-container mt-4">
+                        <iframe 
+                            title="Air Express Location Begumpet"
+                            src="https://maps.google.com/maps?q=CFQ9%2BQ6J%20Begumpet%20Hyderabad&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                            width="100%" 
+                            height="200" 
+                            style="border:0; border-radius:12px;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-top">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.jpg" alt="Air Express Logo" class="footer-logo-img">
+                    <div class="footer-brand-title">AIR EXPRESS</div>
+                </div>
+                <p>Air Express International Courier Services is your premier air cargo and courier partner based in Prakash Nagar, Begumpet, Hyderabad. Delivering excellence worldwide.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/919963257953" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#calculator">Rate Calculator</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#prohibited">Prohibited Items</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#services">International Express</a></li>
+                    <li><a href="#services">Homemade Food Shipping</a></li>
+                    <li><a href="#services">Student Express Documents</a></li>
+                    <li><a href="#services">Air Freight & Commercial Cargo</a></li>
+                    <li><a href="#services">Excess Baggage Express</a></li>
+                    <li><a href="#services">Prescription Medicines Delivery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Details</h4>
+                <p><i class="fa-solid fa-phone"></i> 9963257953 / 8328106276</p>
+                <p><i class="fa-solid fa-envelope"></i> aeairexpress@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Prakash Nagar, Begumpet, Hyderabad - 500016</p>
+                <p><i class="fa-solid fa-hashtag"></i> Plus Code: CFQ9+Q6J Hyderabad</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-content">
+                <p>&copy; 2026 Air Express International Courier Services. All Rights Reserved.</p>
+                <p>Design matched to Official Logo Palette | Modern Air Cargo Logistics Theme</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY MOBILE QUICK BAR -->
+    <div class="mobile-sticky-bar">
+        <a href="tel:9963257953" class="sticky-btn call-btn">
+            <i class="fa-solid fa-phone"></i> Call 9963257953
+        </a>
+        <a href="https://wa.me/919963257953?text=Hi%20Air%20Express,%20I%20need%20courier%20assistance" target="_blank" class="sticky-btn wa-btn">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp Booking
+        </a>
+    </div>
+
+    <!-- BOOKING PICKUP MODAL -->
+    <div class="modal-backdrop" id="pickupModal">
+        <div class="modal-card">
+            <button class="modal-close" onclick="closePickupModal()">&times;</button>
+            <div class="modal-header">
+                <i class="fa-solid fa-truck-ramp-box modal-icon"></i>
+                <h3>Schedule Free Doorstep Pickup</h3>
+                <p>We pick up your courier directly from your address in Begumpet & Hyderabad.</p>
+            </div>
+            <form id="pickupModalForm" onsubmit="handlePickupSubmit(event)">
+                <div class="form-group">
+                    <label>Full Name *</label>
+                    <input type="text" id="modalName" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label>Mobile Number *</label>
+                    <input type="tel" id="modalPhone" class="form-control" placeholder="10 Digit Phone Number" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label>Pickup Date *</label>
+                        <input type="date" id="modalDate" class="form-control" required>
+                    </div>
+                    <div class="form-group col-6">
+                        <label>Destination Country *</label>
+                        <input type="text" id="modalDest" class="form-control" placeholder="e.g. USA, UK, UAE" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Full Pickup Address in Hyderabad *</label>
+                    <textarea id="modalAddress" class="form-control" rows="2" placeholder="House/Flat No, Area, Begumpet / Hyderabad" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Parcel Description (Food/Docs/Clothes/Weight)</label>
+                    <input type="text" id="modalDesc" class="form-control" placeholder="e.g. 10kg food & pickles">
+                </div>
+                <button type="submit" class="btn btn-primary w-100 btn-lg">
+                    <i class="fa-solid fa-check-circle"></i> Confirm Pickup Booking
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
