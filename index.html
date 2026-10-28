@@ -15,37 +15,12 @@
     <!-- Google Fonts & FontAwesome Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
-    <link rel="stylesheet" href="styles.css?v=9">
-    <style>
-        /* Mobile-First: Top-bar is hidden by default on all mobile screens */
-        .top-bar,
-        .desktop-only-bar {
-            display: none !important;
-            visibility: hidden !important;
-            height: 0 !important;
-            min-height: 0 !important;
-            padding: 0 !important;
-            margin: 0 !important;
-            overflow: hidden !important;
-            border: none !important;
-        }
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-        /* Desktop: Show top-bar only on screens >= 993px */
-        @media (min-width: 993px) {
-            .top-bar,
-            .desktop-only-bar {
-                display: block !important;
-                visibility: visible !important;
-                height: auto !important;
-                padding: 0.5rem 0 !important;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
-            }
-        }
-    </style>
+    <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+    <link rel="stylesheet" href="styles.css?v=11">
+    <!-- Top-bar visibility is managed entirely in styles.css (hidden on mobile, shown on desktop 993px+) -->
 </head>
 <body>
 
@@ -233,6 +208,21 @@
             </div>
         </div>
     </section>
+
+    <!-- TRUST BADGES STRIP -->
+    <div class="trust-strip">
+        <div class="trust-strip-inner">
+            <div class="trust-badge"><i class="fa-solid fa-shield-halved"></i> 100% Secure Shipments</div>
+            <div class="trust-divider"></div>
+            <div class="trust-badge"><i class="fa-solid fa-plane-up"></i> Daily Air Flights</div>
+            <div class="trust-divider"></div>
+            <div class="trust-badge"><i class="fa-solid fa-clock"></i> Same-Day Pickup Available</div>
+            <div class="trust-divider"></div>
+            <div class="trust-badge"><i class="fa-brands fa-whatsapp"></i> WhatsApp Live Tracking</div>
+            <div class="trust-divider"></div>
+            <div class="trust-badge"><i class="fa-solid fa-box-tissue"></i> Free Vacuum Packing</div>
+        </div>
+    </div>
 
     <!-- DETAILED RATE CALCULATOR SECTION -->
     <section class="section bg-light" id="calculator">
@@ -884,7 +874,7 @@
         <div class="footer-bottom">
             <div class="container bottom-content">
                 <p>&copy; 2026 Air Express International Courier Services. All Rights Reserved.</p>
-                <p>Design matched to Official Logo Palette | Modern Air Cargo Logistics Theme</p>
+                <p>Begumpet, Hyderabad, Telangana — India's Trusted International Courier</p>
             </div>
         </div>
     </footer>
@@ -941,6 +931,11 @@
             </form>
         </div>
     </div>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
 
     <!-- TOAST NOTIFICATION CONTAINER -->
     <div class="toast-container" id="toastContainer"></div>

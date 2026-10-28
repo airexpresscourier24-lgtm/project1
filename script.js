@@ -425,3 +425,13 @@ function showToast(message, type = 'info') {
         setTimeout(() => toast.remove(), 300);
     }, 4500);
 }
+
+// -- Scroll-to-top button visibility ---------------------------------------
+(function () {
+    const btn = document.getElementById('scrollTopBtn');
+    if (!btn) return;
+    const onScroll = () => {
+        btn.classList.toggle('visible', window.scrollY > 400);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+})();
